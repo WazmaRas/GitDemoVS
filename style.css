@@ -1,0 +1,80 @@
+body{
+    background: #ddd;
+}
+.profile-are{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    box-shadow: 0 0 40px rgb(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+   position: relative;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 1;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 5px solid darkcyan;
+   margin-top: -100px;
+
+}
+
+.card:hover .img2{
+    border-color: darkcyan;
+    transition: .7s;
+
+
+}
+
+.main-text{
+    padding: 70px 0;
+    text-align: center;
+
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.socials i{
+    font-size: 50px;
+    color: darkcyan;
+    padding: 0;
+}
+
+
+.skills{
+    font-size: 30px;
+    color: darkcyan;
+    padding: 0;
+}
+h5{
+    
+    color: darkcyan;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+}
